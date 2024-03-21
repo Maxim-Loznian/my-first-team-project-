@@ -88,21 +88,14 @@ input:focus {
 .container {
     padding: 0 15px;
     margin: 0 auto;
-}
-
-@media only screen and (min-width:375px) {
-    .container {
     max-width: 375px;
-    padding: 0 15px;
-    margin: 0 auto;
-}
 }
 
 @media only screen and (min-width:768px) {
     .container {
     max-width: 768px;
     padding: 0 32px;
-    margin: 0 auto;
+
 }
 }
 
@@ -110,6 +103,6 @@ input:focus {
     .container {
     max-width: 1280px;
     padding: 0 65px;
-    margin: 0 auto;
+ 
 }
 }
