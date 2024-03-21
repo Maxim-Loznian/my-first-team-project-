@@ -56,6 +56,7 @@ img {
 input {
     font-family: inherit;
     border: none;
+    outline: transparent;
 }
 
 input:focus {
@@ -75,10 +76,6 @@ input:focus {
     overflow: hidden;
 }
 
-.container {
-    padding: 0 15px;
-    margin: 0 auto;
-}
 
 .section-title {
     font-weight: 600;
@@ -86,6 +83,11 @@ input:focus {
     line-height: 1;
     letter-spacing: -0.02em;
     color: #0c0c0c;
+}
+
+.container {
+    padding: 0 15px;
+    margin: 0 auto;
 }
 
 @media only screen and (min-width:375px) {
