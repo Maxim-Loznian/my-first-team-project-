@@ -86,7 +86,7 @@ input:focus {
 }
 
 .container {
-    padding: 0 15px;
+    padding: 0 20px;
     margin: 0 auto;
     max-width: 375px;
 }
@@ -106,3 +106,19 @@ input:focus {
  
 }
 }
+
+.section {
+    padding-top: 60px;
+}
+
+@media only screen and (min-width:768px) {
+    .section {
+        padding-top: 80px;
+    }
+}
+
+@media only screen and (min-width:1280px) {
+    .section {
+        padding-top: 100px;
+    }
+ }
