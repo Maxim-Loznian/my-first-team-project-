@@ -122,12 +122,20 @@
     }
 }
 /*==================================? Tab styles */
+/*==================================! Desc styles */
  @media screen and (min-width: 1280px) {
-    .contacts-conteiner-contenet{
+    .contacts-conteiner-contenet {
         flex-direction: row;
-        
+    }
+    .contact-img {
+        max-width: none;
+    }
+    .contacts-conteiner-form {
+        padding-left: 60px;
+        padding-right: 60px;
     }
  }
+ /*==================================? Desc styles */
 
 
 
