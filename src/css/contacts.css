@@ -84,12 +84,12 @@
 @media screen and (min-width: 768px) {
     .contacts-conteiner-form {
         padding: 50px 122px;
+        border-radius: 50px;
     }
     .contacts-conteiner-contenet {
         gap: 40px;
     }
     .contacts-title {
-        font-size: 48px;
         margin-bottom: 40px;
     }
     .contacnts-form-description {
@@ -135,7 +135,7 @@
         padding-right: 60px;
     }
  }
- /*===================================? Desc styles */
+ /*==================================? Desc styles */
 
 
 
