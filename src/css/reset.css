@@ -106,3 +106,19 @@ input:focus {
  
 }
 }
+
+.section {
+    padding-bottom: 60px;
+}
+
+@media only screen and (min-width:768px) {
+    .section {
+        padding-bottom: 80px;
+    }
+}
+
+@media only screen and (min-width:1280px) {
+    .section {
+        padding-bottom: 100px;
+    }
+ }
