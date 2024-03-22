@@ -1,0 +1,171 @@
+.header-container {
+  width: 335px;
+  height: 34px;
+  padding: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0;
+}
+
+.page-header {
+  width: 375px;
+  height: 74px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.page-nav {
+  display: flex;
+  align-items: center;
+}
+
+.logotype {
+  font-weight: 500;
+  font-size: 16px;
+  letter-spacing: -0.02em;
+  color: #0c0c0c;
+  text-transform: uppercase;
+  padding: 7.5px 0;
+}
+
+.navlist {
+  display: none;
+}
+.navlist-link {
+  font-family: 'Gilroy', sans-serif;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.29;
+  text-align: center;
+  color: #0c0c0c;
+  display: block;
+}
+
+.footer-son-list {
+  display: none;
+}
+.team-son-list {
+  display: none;
+}
+
+.open-menu-btn {
+  padding: 0;
+  line-height: 0;
+  background-color: transparent;
+  cursor: pointer;
+  border: none;
+  stroke-width: 2.5px;
+  stroke: #0c0c0c;
+}
+
+@media screen and (min-width: 768px) {
+  .page-header {
+    width: 768px;
+    height: 92px;
+  }
+
+  .navlist {
+    display: none;
+  }
+  .footer-son-list {
+    display: none;
+  }
+  .team-son-list {
+    display: none;
+  }
+  footer-son-link {
+    display: none;
+  }
+  .team-son-link {
+    display: none;
+  }
+
+  .logotype {
+    font-size: 20px;
+    font-size: 20px;
+    padding: 8px 0;
+  }
+
+  .header-container {
+    width: 704px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+
+  @media screen and (min-width: 1280px) {
+    .page-header {
+      width: 1280px;
+      height: 88px;
+    }
+
+    .header-container {
+      width: 1151px;
+      height: 36px;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+    }
+    .open-menu-btn {
+      display: none;
+    }
+
+    .logotype {
+      margin-right: 203px;
+    }
+
+    .navlist {
+      display: flex;
+      gap: 40px;
+    }
+
+    .footer-son-list {
+      display: flex;
+    }
+    .team-son-list {
+      display: flex;
+      gap: 10px;
+    }
+  }
+  .footer-son-link {
+    width: 36px;
+    height: 36px;
+  }
+  .team-son-link {
+    border: 1px solid rgba(12, 12, 12, 0.1);
+    border-radius: 10px;
+    padding: 8px;
+    fill: #0c0c0c;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .team-son-link:hover,
+  .team-son-link:focus {
+    fill: #3350e9;
+  }
+
+  .current {
+    position: relative;
+  }
+
+  .current::after {
+    content: '';
+    position: absolute;
+    width: 8px;
+    height: 8px;
+    border-radius: 100%;
+    background: #3350e9;
+    left: 40%;
+    top: 17px;
+    display: none;
+  }
+
+  .navlist-link.current::after {
+    display: block;
+  }
+}
