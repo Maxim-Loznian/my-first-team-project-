@@ -14,13 +14,36 @@
   max-width: 335px;
 }
 
+@media only screen and (min-width: 768px) {
+  .hero-title {
+    font-size: 70px;
+    line-height: 86%;
+    letter-spacing: -0.02em;
+    max-width: 557px;
+    margin-top: 80px;
+  }
+}
+@media only screen and (min-width: 768px) {
+  .hero-container {
+    display: flex;
+  }
+}
+
 .hero-text {
   font-size: 14px;
-  line-height: 129%;
   letter-spacing: -0.02em;
   color: rgba(12, 12, 12, 0.7);
   margin-bottom: 28px;
   max-width: 335px;
+  line-height: 18px;
+  text-align: left;
+}
+
+@media only screen and (min-width: 768px) {
+  .hero-text {
+    font-size: 16px;
+    line-height: 20px;
+  }
 }
 
 .hero-btn {
@@ -57,4 +80,7 @@
 
 .mobile-image-hero {
   margin-bottom: 60px;
+}
+
+@media only screen and (min-width: 768px) {
 }
