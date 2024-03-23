@@ -63,10 +63,9 @@
   align-items: center;
   padding: 0;
   margin-bottom: 40px;
+  gap: 24px;
 }
-.navlist-item-mobile {
-  margin-bottom: 24px;
-}
+.
 .navlist-link-mobile {
   font-weight: 500;
   font-size: 14px;
@@ -81,14 +80,12 @@
 
 .current-mobile::after {
   content: '';
-  position: absolute;
   width: 8px;
   height: 8px;
   border-radius: 100%;
   background: #3350e9;
-  left: 40%;
-  top: 17px;
   display: flex;
+  margin: 0 auto;
 }
 
 .navlist-link.current-mobile::after {

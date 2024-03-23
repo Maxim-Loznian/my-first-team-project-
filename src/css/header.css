@@ -1,6 +1,4 @@
 .header-container {
-  width: 335px;
-  height: 34px;
   padding: 20px;
   display: flex;
   align-items: center;
@@ -8,13 +6,6 @@
   padding: 0;
 }
 
-.page-header {
-  width: 375px;
-  height: 74px;
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-}
 
 .page-nav {
   display: flex;
@@ -26,8 +17,8 @@
   font-size: 16px;
   letter-spacing: -0.02em;
   color: #0c0c0c;
-  text-transform: uppercase;
-  padding: 7.5px 0;
+  padding: 28px 0;
+  line-height: normal;
 }
 
 .navlist {
@@ -89,8 +80,6 @@
   }
 
   .header-container {
-    width: 704px;
-    height: 40px;
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -103,8 +92,6 @@
     }
 
     .header-container {
-      width: 1151px;
-      height: 36px;
       display: flex;
       align-items: center;
       justify-content: space-between;
