@@ -76,7 +76,7 @@
   .logotype {
     font-size: 20px;
     font-size: 20px;
-    padding: 8px 0;
+    padding: 42px 0;
   }
 
   .header-container {
@@ -102,6 +102,7 @@
 
     .logotype {
       margin-right: 203px;
+      paddding: 36px 0;
     }
 
     .navlist {
