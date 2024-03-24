@@ -65,7 +65,7 @@
   margin-bottom: 40px;
   gap: 24px;
 }
-.
+
 .navlist-link-mobile {
   font-weight: 500;
   font-size: 14px;
@@ -143,6 +143,7 @@
     width: 330px;
   }
   .navlist-mobile {
+    gap: 32px;
     margin-bottom: 50px;
   }
 }

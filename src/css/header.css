@@ -145,7 +145,6 @@
 
   .current::after {
     content: '';
-    position: absolute;
     width: 8px;
     height: 8px;
     border-radius: 100%;
@@ -153,6 +152,7 @@
     left: 40%;
     top: 17px;
     display: none;
+    margin: 0 auto;
   }
 
   .navlist-link.current::after {
