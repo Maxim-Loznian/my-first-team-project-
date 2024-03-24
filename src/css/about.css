@@ -28,7 +28,7 @@
 .btn-about {
   background: #3350e9;
   border-radius: 16px;
-  width: 160px;
+  min-width: 160px;
   height: 48px;
   color: #fbfbfb;
   border: none;
