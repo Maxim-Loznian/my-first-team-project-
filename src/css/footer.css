@@ -187,8 +187,9 @@
     .footer-nav-list {
         font-size: 14px;
         line-height: 1.29;
+        gap: 19px;
+        width: 400px;
     }
-    
     .footer-post {
         line-height: 1.29;
         font-size: 14px;
@@ -215,11 +216,6 @@
     .footer-contacts {
         display: flex;
         justify-content: space-between;
-    }
-
-    .footer-nav-list {
-        gap: 40px;
-        width: 505px;
     }
 
     .footer-socialmedia-list {
@@ -263,6 +259,11 @@
     
     .footer-socialmedia-list {
         margin-bottom: 0;
+    }
+
+    .footer-nav-list {
+        gap: 40px;
+        width: 505px;
     }
 }
   
