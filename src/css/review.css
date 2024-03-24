@@ -1,8 +1,8 @@
-.reviews {
+.section {
     padding-top: 60px;
     padding-bottom: 60px;
 }
-.reviews-title {
+.section-title {
     margin-bottom: 24px;
     font-family: "Gilroy", sans-serif;
     font-weight: 600;
@@ -15,7 +15,7 @@
 .mask-two {
 display: none;
 }
-.reviews-container {
+.container {
 max-width: 375px;
 }
 .reviews-box {
@@ -23,9 +23,9 @@ width: 263px;
 } 
 .reviews-list {
 display: flex;
+width: 1150px;
 margin-left: 0;
 flex-wrap: wrap;
-margin-bottom: 60px;
 }
  
 .reviews-list-avatar {
@@ -40,9 +40,7 @@ margin-bottom: 60px;
 } 
 
 .reviews-card {
-    /* width: 263px; */
     padding: 32px 36px;
-    padding-bottom: 24px;
     margin-left: auto;
     margin-right: auto;
     
@@ -60,19 +58,19 @@ margin-bottom: 60px;
     font-family: "Gilroy", sans-serif;
         font-weight: 500;
         font-size: 14px;
-        line-height: 1.28571;
+        line-height: 1.29;
         letter-spacing: -0.02em;
         text-align: center;
         color: rgba(12, 12, 12, 0.4);
     
 }
 @media screen and (min-width: 768px) {
-.reviews-container {
-min-width: 768px;
+.container {
+max-width: 768px;
 }
-.reviews {
-        padding-top: 80px;
-        padding-bottom: 80px;
+.section {
+padding-top: 80px;
+padding-bottom: 80px;
     }
 .reviews-box {
 width: 272px;
@@ -97,7 +95,7 @@ flex-wrap: nowrap;
 gap: 16px;
 justify-content: space-between;
 width: calc((100% - 16px) / 2);
-margin-bottom: 60px;
+
    }
 .item-text {
    font-size: 16px;
@@ -108,11 +106,11 @@ margin-bottom: 60px;
     }
 }
 @media screen and (min-width: 1158px) {
-.reviews {
+.section {
 padding-top: 100px;
 padding-bottom: 100px;
         }
-.reviews-container {
+.container {
 min-width: 1280px;
  }
 .reviews-box {
@@ -120,12 +118,11 @@ width: 298px;
 } 
 .reviews-list {
     display: flex;
-    /* width: 298px; */
     flex-wrap: nowrap;
     gap: 20px;
     width: calc((100% - 40px) / 3);
-    margin-bottom: 60px;
-}
+    }
+
 .mask-one,
 .mask-two {
 display: inline;
