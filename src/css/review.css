@@ -23,7 +23,6 @@ width: 263px;
 } 
 .reviews-list {
 display: flex;
-width: 1150px;
 margin-left: 0;
 flex-wrap: wrap;
 }
