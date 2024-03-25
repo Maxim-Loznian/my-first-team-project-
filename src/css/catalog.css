@@ -74,16 +74,22 @@ margin-bottom: 0;
 .watch-item {
 padding: 10px 6px;
 }
+.catalog-watch-name {
+font-size: 20px;
+line-height: 1;
 }
-/* @media screen and (min-width: 1158px) {
+}
+@media screen and (min-width: 1280px) {
 .catalog-section {
 margin-bottom: 100px;
 }
 .catalog-card {
-min-width: 368px;
-width: calc((100% - 24px) / 3);
+width: 368px;
+}
+.watch-item {
+padding: 6px 6px 14px 6px;
 }
 .catalog-list {
-flex-wrap: wrap;
 column-gap: 23px;
-}} */
+}
+}
