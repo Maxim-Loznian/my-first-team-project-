@@ -83,6 +83,15 @@ input:focus {
     line-height: 1;
     letter-spacing: -0.02em;
     color: #0c0c0c;
+    margin-bottom: 24px;
+}
+
+@media only screen and (min-width:768px) { 
+    .section-title {
+        margin-bottom: 40px;
+        font-size: 48px;
+        line-height: 0.91667;
+    }
 }
 
 .container {
@@ -106,3 +115,19 @@ input:focus {
  
 }
 }
+
+.section {
+    padding-top: 60px;
+}
+
+@media only screen and (min-width:768px) {
+    .section {
+        padding-top: 80px;
+    }
+}
+
+@media only screen and (min-width:1280px) {
+    .section {
+        padding-top: 100px;
+    }
+ }
