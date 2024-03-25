@@ -1,32 +1,36 @@
-.section-adv {
-  align-items: center;
+.adv-container {
   border-radius: 30px;
   max-width: 335px;
+  height: 363px;
   background-color: #0c0c0c;
-  background-image: url(../img/advertisement/adv-mob@x1.jpg);
+  background-image: linear-gradient(
+      rgba(000, 000, 000, 0.7),
+      rgba(000, 000, 000, 0.7)
+    ),
+    url(../img/advertisement/adv-mob@x1.jpg);
   background-size: cover;
   background-repeat: no-repeat;
-  margin-left: auto;
-  margin-right: auto;
-  padding: 60px 20px 60px 20px;
 }
 
 @media screen and (min-resolution: 192dpi) {
-  .section-adv {
-    background-image: url(../img/advertisement/adv-mob@x2.jpg);
+  .adv-container {
+    background-image: linear-gradient(
+        rgba(000, 000, 000, 0.7),
+        rgba(000, 000, 000, 0.7)
+      ),
+      url(../img/advertisement/adv-mob@x2.jpg);
   }
 }
 
 .adv-text {
-  max-width: 279px;
-  font-family: 'Gilroy', sans-serif;
+  min-width: 279px;
   font-weight: 600;
   font-size: 32px;
   line-height: 1;
   letter-spacing: -0.02em;
   color: #fbfbfb;
   background-position: center;
-  margin-bottom: 28px;
+  padding: 60px 28px 28px 28px;
 }
 
 .adv-text-part {
@@ -34,11 +38,7 @@
 }
 
 .adv-link {
-  font-family: 'Gilroy', sans-serif;
-  font-weight: 500;
-  font-size: 14px;
-  line-height: 1.28571;
-  text-align: center;
+  line-height: 1.3;
   color: #fbfbfb;
   border: 1px solid rgba(251, 251, 251, 0.15);
   border-radius: 16px;
@@ -58,36 +58,52 @@
 }
 
 @media screen and (min-width: 768px) {
-  .section-adv {
+  .adv-container {
     max-width: 704px;
     height: 425px;
-    background-image: url(../img/advertisement/adv-tablet@x1.jpg);
+    background-image: linear-gradient(
+        rgba(000, 000, 000, 0.7),
+        rgba(000, 000, 000, 0.7)
+      ),
+      url(../img/advertisement/adv-tablet@x1.jpg);
   }
 
   @media screen and (min-resolution: 192dpi) {
-    .section-adv {
-      background-image: url(../img/advertisement/adv-tablet@x2.jpg);
+    .adv-container {
+      background-image: linear-gradient(
+          rgba(000, 000, 000, 0.7),
+          rgba(000, 000, 000, 0.7)
+        ),
+        url(../img/advertisement/adv-tablet@x2.jpg);
     }
   }
 
   .adv-text {
     max-width: 576px;
     font-size: 48px;
-    line-height: 0.917;
+    line-height: 0.9;
     padding-bottom: 32px;
   }
 }
 
 @media screen and (min-width: 1158px) {
-  .section-adv {
+  .adv-container {
     max-width: 1150px;
     height: 298px;
-    background-image: url(../img/advertisement/adv-desktop@x1.jpg);
+    background-image: linear-gradient(
+        rgba(000, 000, 000, 0.7),
+        rgba(000, 000, 000, 0.7)
+      ),
+      url(../img/advertisement/adv-desktop@x1.jpg);
   }
 
   @media screen and (min-resolution: 192dpi) {
-    .section-adv {
-      background-image: url(../img/advertisement/adv-desktop@x2.jpg);
+    .adv-container {
+      background-image: linear-gradient(
+          rgba(000, 000, 000, 0.7),
+          rgba(000, 000, 000, 0.7)
+        ),
+        url(../img/advertisement/adv-desktop@x2.jpg);
     }
   }
 
