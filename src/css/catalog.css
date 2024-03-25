@@ -52,6 +52,9 @@ background: #1f3cd4;
 .hidden {
 display: none;
 }
+.cat-span-point {
+display: none;
+}
 }
 @media screen and (min-width: 768px) {
 .catalog-section {
@@ -80,6 +83,9 @@ font-size: 20px;
 line-height: 1;
 }
 .cat-span {
+display: none;
+} 
+.cat-span-letter {
 display: none;
 }
 }
