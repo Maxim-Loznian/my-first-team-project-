@@ -79,6 +79,9 @@ padding: 10px 6px;
 font-size: 20px;
 line-height: 1;
 }
+.cat-span {
+display: none;
+}
 }
 @media screen and (min-width: 1280px) {
 .catalog-section {
@@ -93,5 +96,8 @@ padding: 6px 6px 14px 6px;
 .catalog-list {
 column-gap: 23px;
 width: 1150px;
+}
+.cat-span {
+display: contents;
 }
 }
