@@ -1,14 +1,13 @@
 .section-adv {
-  display: flex;
   align-items: center;
   border-radius: 30px;
   max-width: 335px;
-  min-height: 363px;
   background-color: #0c0c0c;
   background-image: url(../img/advertisement/adv-mob@x1.jpg);
   background-size: cover;
   background-repeat: no-repeat;
-  background-position: center;
+  margin-left: auto;
+  margin-right: auto;
   padding: 60px 20px 60px 20px;
 }
 
@@ -34,7 +33,7 @@
   color: rgba(251, 251, 251, 0.5);
 }
 
-.contact-btn {
+.adv-link {
   font-family: 'Gilroy', sans-serif;
   font-weight: 500;
   font-size: 14px;
@@ -43,6 +42,64 @@
   color: #fbfbfb;
   border: 1px solid rgba(251, 251, 251, 0.15);
   border-radius: 16px;
-  width: 160px;
+  min-width: 160px;
   height: 48px;
+  margin-right: auto;
+  padding-top: 15px;
+  padding-left: 44px;
+  padding-bottom: 15px;
+  padding-right: 44px;
+}
+
+.adv-link:hover,
+.adv-link:focus {
+  color: #0c0c0c;
+  background-color: #fbfbfb;
+}
+
+@media screen and (min-width: 768px) {
+  .section-adv {
+    max-width: 704px;
+    height: 425px;
+    background-image: url(../img/advertisement/adv-tablet@x1.jpg);
+  }
+
+  @media screen and (min-resolution: 192dpi) {
+    .section-adv {
+      background-image: url(../img/advertisement/adv-tablet@x2.jpg);
+    }
+  }
+
+  .adv-text {
+    max-width: 576px;
+    font-size: 48px;
+    line-height: 0.917;
+    padding-bottom: 32px;
+  }
+}
+
+@media screen and (min-width: 1158px) {
+  .section-adv {
+    max-width: 1150px;
+    height: 298px;
+    background-image: url(../img/advertisement/adv-desktop@x1.jpg);
+  }
+
+  @media screen and (min-resolution: 192dpi) {
+    .section-adv {
+      background-image: url(../img/advertisement/adv-desktop@x2.jpg);
+    }
+  }
+
+  .adv-text {
+    max-width: 690px;
+    font-weight: 600;
+    font-size: 48px;
+    line-height: 0.917;
+  }
+
+  .adv-container {
+    display: flex;
+    gap: 120px;
+  }
 }
