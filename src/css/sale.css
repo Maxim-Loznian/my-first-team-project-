@@ -5,10 +5,15 @@
 }
 
 .sale-list {
-    width: 100%;
     display: flex;
     flex-wrap: wrap;
     gap: 5px;
+}
+
+@media only screen and (max-width: 767px) {
+    .sale-list {
+        width: 100%;
+    }
 }
 
 .sale-list-item {
