@@ -25,7 +25,10 @@
   color: rgba(12, 12, 12, 0.7);
 }
 
-.about-btn {
+.link-btn {
+  display: inline-block;
+}
+.btn-about {
   background: #3350e9;
   border-radius: 16px;
   min-width: 160px;
@@ -38,7 +41,6 @@
 .about-btn:hover,
 .about-btn:focus {
   background-color: #1f3cd4;
-
 }
 
 .clock-img {
