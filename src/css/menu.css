@@ -14,9 +14,8 @@
   flex-direction: column;
   padding: 240px 39px 40px 39px;
   position: absolute;
-  top: 50%;
+  top: 0;
   right: 0;
-  transform: translate(-50%, -50%) scale(1);
   background: #0c0c0c;
   border-radius: 4px;
   width: 200px;

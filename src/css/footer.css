@@ -60,12 +60,12 @@
 }
 
 .footer-btn {
+    display: inline-block;
     border: 1px solid rgba(251, 251, 251, 0.2);
     background-color: inherit;
     border-radius: 16px;
-    padding: 0;
+    padding: 14px 20px;
     min-width: 152px;
-    height: 44px;
     margin-bottom: 40px;
     
 }
@@ -170,8 +170,7 @@
     } */
 
     .footer-btn {
-        min-width: 160px;
-        height: 48px;
+        padding: 15px 15px;
     }
     
     .footer-item-icon {
