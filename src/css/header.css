@@ -4,6 +4,7 @@
   align-items: center;
   justify-content: space-between;
   padding: 0;
+  border-bottom: 1px solid #e7e9fc ;
 }
 
 
@@ -144,7 +145,7 @@
     position: relative;
   }
 
-  .current::after {
+  .current:hover::after {
     content: '';
     width: 8px;
     height: 8px;
@@ -156,7 +157,20 @@
     margin: 0 auto;
   }
 
-  .navlist-link.current::after {
-    display: block;
-  }
+.current:focus::after {
+  content: '';
+  width: 8px;
+  height: 8px;
+  border-radius: 100%;
+  background: #3350e9;
+  left: 40%;
+  top: 17px;
+  display: none;
+  margin: 0 auto;
+}
+
+  .navlist-link.current::after
+  {display: block;}  
+  
+
 }
