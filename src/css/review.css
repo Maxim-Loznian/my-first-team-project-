@@ -3,11 +3,12 @@
 .mask-two {
 display: none;
 }
+
 .container {
 max-width: 375px;
 }
 .reviews-box {
-width: 263px;
+width: 100%;
 } 
 .reviews-list {
 display: flex;
@@ -53,6 +54,7 @@ flex-wrap: wrap;
         color: rgba(12, 12, 12, 0.4);
     
 }
+
 @media screen and (min-width: 768px) {
 .container {
 max-width: 768px;
