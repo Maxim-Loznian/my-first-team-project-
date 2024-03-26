@@ -1,6 +1,4 @@
-.catalog-section {
-margin-bottom: 60px;
-}
+
 .catalog-card {
 background: #f3f3f3;
 border: 1px solid rgba(12, 12, 12, 0.05);
@@ -8,6 +6,7 @@ border-radius: 30px;
 width: 335px;
 padding: 24px 28px;
 margin-bottom: 20px;
+width: 100%;
 }
 .watch-item {
 padding: 18px 36px 18px 35px;
