@@ -146,6 +146,7 @@
   }
 
   .current:hover::after {
+    position: absolute;
     content: '';
     width: 8px;
     height: 8px;
@@ -154,10 +155,11 @@
     left: 40%;
     top: 17px;
     display: none;
-    margin: 0 auto;
+    
   }
 
 .current:focus::after {
+  position: absolute;
   content: '';
   width: 8px;
   height: 8px;
@@ -166,8 +168,7 @@
   left: 40%;
   top: 17px;
   display: none;
-  margin: 0 auto;
-}
+   }
 
   .navlist-link.current::after
   {display: block;}  

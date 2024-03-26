@@ -119,7 +119,7 @@
   background: #3350e9;
   display: flex;
   margin: 0 auto;
-}
+ }
 
 .current-mobile:focus::after {
   content: '';
@@ -129,7 +129,7 @@
   background: #3350e9;
   display: flex;
   margin: 0 auto;
-}
+ }
 .navlist-link.current-mobile::after {
   display: block;
 }
