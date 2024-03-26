@@ -27,6 +27,7 @@
 
 .link-btn {
   display: inline-block;
+  padding: 15px 38px;
 }
 .btn-about {
   background: #3350e9;
@@ -35,7 +36,6 @@
   color: #fbfbfb;
   border: none;
   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
-  padding: 15px 38px;
 }
 
 .btn-about:hover,
