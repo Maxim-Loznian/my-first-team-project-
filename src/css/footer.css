@@ -2,16 +2,11 @@
     padding-bottom: 20px;
 }
 .footer-container {
-    /* display: flex;
-    flex-direction: column;
-    gap: 92px; */
     color: #fbfbfb;
     background-color: #0c0c0c;
     border-radius: 30px;
     padding: 40px 28px 28px 28px;
 }
-
-
 
 .footer-logo {
     font-size: 16px;
@@ -29,7 +24,7 @@
 .footer-socialmedia-icon:hover,
 .footer-socialmedia-icon:focus {
     opacity: 1;
-
+    
 }
 .footer-socialmedia-icon {
     display: flex;
@@ -86,12 +81,19 @@
     align-items: center;
 }
 
+.footer-contacts {
+    margin-bottom: 40px;
+}
+
 .footer-slogan {
     font-weight: 600;
     font-size: 20px;
     line-height: 1.2;
     letter-spacing: -0.02em;
     text-align: center;
+}
+
+.footer-contacts-desc {
     margin-bottom: 92px;
 }
 
@@ -174,10 +176,6 @@
         font-size: 20px;
     }
 
-    /* .footer-address {
-        max-width: 160px;
-    } */
-
     .footer-btn {
         padding: 15px 15px;
     }
@@ -192,11 +190,20 @@
         line-height: 1.29;
     }
 
+    .footer-contacts {
+        margin-bottom: 86px;
+    }
+
     .footer-slogan {
         width: 524px;
         font-size: 28px;
         line-height: 1.14;
-        margin: 0 50px 100px 50px;
+        /* margin: 0 50px 100px 50px; */
+        margin: 0 50px;
+    }
+
+    .footer-contacts-desc {
+        margin-bottom: 100px;
     }
     
     .footer-nav-list {
@@ -233,7 +240,13 @@
         justify-content: space-between;
     }
 
+<<<<<<< HEAD
   
+=======
+    /* .footer-socialmedia-list {
+        margin-bottom: 86px;
+    } */
+>>>>>>> 0fd19389dec700e3b7c298df1e04a7867af7d984
     
     .footer-copyrights {
         margin: 0;
@@ -257,8 +270,8 @@
         position: relative;
         top: -86px;
         width: 523px;
-        margin: 0 307px 40px 306px;
-
+        margin-left: 306px;
+        margin-right: 307px;
     }
 
     .footer-contacts {
@@ -280,8 +293,13 @@
         width: 505px;
     }
 
+<<<<<<< HEAD
     .footer-logo-socialmedia {
         margin-bottom: 0;
+=======
+    .footer-contacts-desc {
+        margin-bottom: 41px;
+>>>>>>> 0fd19389dec700e3b7c298df1e04a7867af7d984
     }
 }
   
