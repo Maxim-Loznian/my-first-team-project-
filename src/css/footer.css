@@ -66,8 +66,6 @@
     border-radius: 16px;
     padding: 14px 20px;
     min-width: 152px;
-    
-    
 }
 .footer-tel {
     font-size: 12px;
@@ -240,13 +238,9 @@
         justify-content: space-between;
     }
 
-<<<<<<< HEAD
-  
-=======
     /* .footer-socialmedia-list {
         margin-bottom: 86px;
     } */
->>>>>>> 0fd19389dec700e3b7c298df1e04a7867af7d984
     
     .footer-copyrights {
         margin: 0;
@@ -293,13 +287,8 @@
         width: 505px;
     }
 
-<<<<<<< HEAD
-    .footer-logo-socialmedia {
-        margin-bottom: 0;
-=======
     .footer-contacts-desc {
         margin-bottom: 41px;
->>>>>>> 0fd19389dec700e3b7c298df1e04a7867af7d984
     }
 }
   
