@@ -25,19 +25,20 @@
   color: rgba(12, 12, 12, 0.7);
 }
 
-.btn-about {
+.about-btn {
   background: #3350e9;
   border-radius: 16px;
   min-width: 160px;
-  height: 48px;
   color: #fbfbfb;
   border: none;
-  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  padding: 15px 38px;
 }
 
-.btn-about:hover,
-.btn-about:focus {
+.about-btn:hover,
+.about-btn:focus {
   background-color: #1f3cd4;
+
 }
 
 .clock-img {

@@ -91,7 +91,7 @@ width: calc((100% - 16px) / 2);
    color: rgba(12, 12, 12, 0.4);
     }
 }
-@media screen and (min-width: 1158px) {
+@media screen and (min-width: 1280px) {
 
 .container {
 min-width: 1280px;
