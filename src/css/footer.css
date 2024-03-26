@@ -8,6 +8,10 @@
     padding: 40px 28px 28px 28px;
 }
 
+.footer-contacts-desc {
+    margin-bottom: 92px;
+}
+
 .footer-logo {
     font-size: 16px;
     letter-spacing: -0.02em;
@@ -44,6 +48,8 @@
 .footer-contacts {
     margin-bottom: 40px;
 }
+
+
 
 .footer-logo-socialmedia {
     display: flex;
@@ -91,9 +97,7 @@
     text-align: center;
 }
 
-.footer-contacts-desc {
-    margin-bottom: 92px;
-}
+
 
 .footer-nav-list {
     font-size: 12px;
@@ -290,6 +294,7 @@
     .footer-contacts-desc {
         margin-bottom: 41px;
     }
+
 }
   
 
