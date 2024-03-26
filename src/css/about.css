@@ -38,8 +38,8 @@
   padding: 15px 38px;
 }
 
-.about-btn:hover,
-.about-btn:focus {
+.btn-about:hover,
+.btn-about:focus {
   background-color: #1f3cd4;
 }
 
