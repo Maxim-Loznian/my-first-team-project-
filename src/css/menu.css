@@ -113,12 +113,13 @@
 
 .current-mobile:hover::after {
   position: absolute;
+  content: '';
   width: 8px;
   height: 8px;
   border-radius: 100%;
   background: #3350e9;
   display: flex;
-  margin: 0 auto;
+ left: 40%;
  }
 
 .current-mobile:focus::after {
@@ -129,9 +130,10 @@
   border-radius: 100%;
   background: #3350e9;
   display: flex;
-  margin: 0 auto;
+  left: 40%;
  }
-.navlist-link.current-mobile::after {
+
+ .navlist-link.current-mobile::after {
   display: block;
 }
 
